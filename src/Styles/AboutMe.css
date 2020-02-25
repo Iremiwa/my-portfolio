@@ -1,5 +1,6 @@
 .about-section{
     background-color:whitesmoke;
+    height: 100%;
 }
 
 .about-section > svg {
@@ -11,7 +12,7 @@
     padding: 0 20px;
     margin-right: 20px;
 }
-/*
+
 .skill {
     font-size: 20px;
     line-height: 50px;
@@ -20,5 +21,5 @@
 
 .star-icon {
     margin-left: 2px;
-} */
+}
 

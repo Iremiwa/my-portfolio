@@ -16,22 +16,18 @@ function AboutMe() {
     <React.Fragment>
       <div className="about-section">
 
-        <table className="table table-borderless table-responsive">
-          <tbody>
-
-            <tr>
-              <td className= "about-me-text">
+        <div className="row">
+        <div className = "col">
               <h3>About Me</h3>
-            <p>
+            <p className= "about-me-text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores,
               ut reiciendis quos eos autem repudiandae earum? Ut officiis velit
               magni possimus libero impedit veniam quod beatae! Soluta, earum?
               Corporis, voluptate.
             </p>
-          
-              </td>
-
-              <td>
+            </div>
+              
+            <div className = "col">
               <p className = "skill">
             <h3>Skills</h3>
                 <div className="row">
@@ -122,20 +118,14 @@ function AboutMe() {
                 <IconContext.Provider value={{ color: "gold", className: "global-class-name" }}  />
                 Express
                 </p>
-              </td>
+             </div>
 
-            </tr>
-          </tbody>
+              </div>
    
-        </table>
+       
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
-          <path
-            fill="white"
-            fill-opacity="1"
-            d="M0,128L48,122.7C96,117,192,107,288,112C384,117,480,139,576,154.7C672,171,768,181,864,186.7C960,192,1056,192,1152,176C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-          ></path>
-        </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="white" fill-opacity="1" d="M0,160L1440,224L1440,320L0,320Z"></path></svg>
+
       </div>
       
     </React.Fragment>
