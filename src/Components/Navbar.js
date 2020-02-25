@@ -14,25 +14,26 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <div className="menu-item">
                     <ul className="navbar-nav mr-auto">
-                    <Link to="howItWorks" spy={true} smooth={true} offset={-70} duration={500}>
+                    <Link to="aboutme" spy={true} smooth={true} offset={-70} duration={500}>
                         <li className="nav-item ">
                             <a href="#" className="nav-link">About Me</a>
                         </li>
                     </Link>
-                    <Link to="testimonials" spy={true} smooth={true} offset={-70} duration={700}>
+                    <Link to="portfolio" spy={true} smooth={true} offset={-70} duration={700}>
                         <li className="nav-item ">
                             <a href="#" className="nav-link" >Portfolio</a>
                         </li>
                     </Link>
-                    <Link to="signUpForm" spy={true} smooth={true} offset={-70} duration={1000}>
+                    <Link to="contactme" spy={true} smooth={true} offset={-70} duration={1200}>
                     <li className="nav-item ">
                         <a href="#" className="nav-link">Contact Me</a>
                     </li>
                     </Link>
+                   
                     <li className="nav-item ">
                         <a href="#" className="nav-link">Resume</a>
                     </li>
-                    
+                   
                     
                     
                     

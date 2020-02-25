@@ -14,11 +14,11 @@ import { IconContext } from 'react-icons';
 function AboutMe() {
   return (
     <React.Fragment>
-      <div className="about-section">
+      <div className="aboutme">
 
         <div className="row">
         <div className = "col">
-              <h3>About Me</h3>
+              <h2>About Me</h2>
             <p className= "about-me-text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores,
               ut reiciendis quos eos autem repudiandae earum? Ut officiis velit
@@ -29,7 +29,7 @@ function AboutMe() {
               
             <div className = "col">
               <p className = "skill">
-            <h3>Skills</h3>
+            <h2>Skills</h2>
                 <div className="row">
                     <div className="col">
               <FaHtml5 className="icons" />
@@ -113,11 +113,6 @@ function AboutMe() {
               </div>
             </p>
 
-            <p className = "skill">
-            
-                <IconContext.Provider value={{ color: "gold", className: "global-class-name" }}  />
-                Express
-                </p>
              </div>
 
               </div>

@@ -1,6 +1,7 @@
-.about-section{
+.aboutme{
     background-color:whitesmoke;
     height: 100%;
+    margin-bottom: 0;
 }
 
 .about-section > svg {
@@ -11,15 +12,20 @@
     margin-left: 30px;
     padding: 0 20px;
     margin-right: 20px;
+    font-size: 25px;
 }
 
 .skill {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 50px;
     margin-left: 30px;
 }
 
 .star-icon {
     margin-left: 2px;
+}
+
+h2 {
+    text-align: center;
 }
 

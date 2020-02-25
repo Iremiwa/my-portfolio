@@ -5,7 +5,7 @@ function Contact ()  {
     
     return(
         <React.Fragment>
-            <div className="contact-section">
+            <div className="contactme">
 
                 <h3>Send Me A Message</h3>
                 <form className="contact-form">

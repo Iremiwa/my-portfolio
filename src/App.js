@@ -31,10 +31,10 @@ class App extends React.Component {
           
           </div>
 
-          <AboutMe />
-          <Portfolio />
+          <AboutMe name="aboutme" />
+          <Portfolio name="portfolio" />
 
-        <Contact />
+        <Contact name="contactme" />
       </React.Fragment>
     );
   }
