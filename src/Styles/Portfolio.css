@@ -1,0 +1,18 @@
+.portfolio-section {
+    
+    height: 100%;
+    text-align: center;
+}
+
+.mockup {
+    width: 250px;
+    
+}
+
+.mockup-description {
+    padding: 10px 40px;
+}
+
+.mockup-section {
+    padding: 10px 30px;
+}

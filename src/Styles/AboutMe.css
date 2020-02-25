@@ -1,0 +1,24 @@
+.about-section{
+    background-color:whitesmoke;
+}
+
+.about-section > svg {
+    display: block;
+}
+
+ .about-me-text {
+    margin-left: 30px;
+    padding: 0 20px;
+    margin-right: 20px;
+}
+/*
+.skill {
+    font-size: 20px;
+    line-height: 50px;
+    margin-left: 30px;
+}
+
+.star-icon {
+    margin-left: 2px;
+} */
+
