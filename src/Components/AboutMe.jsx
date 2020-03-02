@@ -20,10 +20,7 @@ function AboutMe() {
         <div className = "col">
               <h2>About Me</h2>
             <p className= "about-me-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores,
-              ut reiciendis quos eos autem repudiandae earum? Ut officiis velit
-              magni possimus libero impedit veniam quod beatae! Soluta, earum?
-              Corporis, voluptate.
+            A problem solver with a knack for providing workable and realistic solutions through technology. Searching for opportunities in software development to utilize my skills while expanding my knowledge and contributing to the success of the organisation.
             </p>
             </div>
               
