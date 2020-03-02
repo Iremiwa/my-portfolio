@@ -8,7 +8,7 @@ function Contact ()  {
             <div className="contactme">
 
                 <h3>Send Me A Message</h3>
-                <form className="contact-form">
+                <form className="contact-form" name="portfolio-contact" method="POST" data-netlify="true">
                 <div className="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>

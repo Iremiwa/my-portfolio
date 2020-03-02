@@ -13,13 +13,11 @@ function Portfolio() {
       <div className="portfolio-section">
         <h1>Portfolio</h1>
 
-        <div className="portfolio">
+        <div className="row">
           
 
-          <table className="table table-borderless" />
-          <tbody>
-            <tr>
-              <td className="mockup-section">
+          <div className="col">
+          <div className="mockup-section">
                 <a href="https://instabill.herokuapp.com/">
                 <img src={InstabillMockup} className="mockup" />
                 <h3>Instabill</h3>
@@ -29,9 +27,11 @@ function Portfolio() {
                   digital invoice eliminating the need for hard invoices.
                 </p>
                 </a>
-              </td>
+              </div>
+          </div>
 
-              <td className="mockup-section">
+          <div className="col">
+          <div className="mockup-section">
                 <a href = " https://iremiwa.github.io/Trivia-quiz/">
                 <img src={quizAppMockup} className="mockup" />
                 <h3>GOT Quiz Application</h3>
@@ -40,11 +40,14 @@ function Portfolio() {
                   picks from a pool of questions and then calculates the players's total score.
                 </p>
                 </a>
-              </td>
-            </tr>
+              </div>
+          </div>
+          </div>
+              
+          <div className="row">
 
-            <tr>
-              <td className="mockup-section">
+            <div className="col">
+            <div className="mockup-section">
                 <a href="https://iremiwa.github.io/News-App/">
                 <img src={newsSearchMockup} className="mockup" />
                 <h3>News Search</h3>
@@ -53,9 +56,11 @@ function Portfolio() {
                   renders news items associated with the keyword. Developed with HTML, CSS, JavaScript, Jquery.
                 </p>
                 </a>
-              </td>
+              </div>
+            </div>
 
-              <td className="mockup-section">
+            <div className="col">
+            <div className="mockup-section">
                 <a href="https://iremiwa.github.io/Book-Search/">
                 <img src={bookFinderMockup} className="mockup" />
                 <h3>Virtual Library</h3>
@@ -63,11 +68,15 @@ function Portfolio() {
                   This application gets books from google books and allows users to  preview any book of their choice.
                 </p>
                 </a>
-              </td>
-            </tr>
+              </div>
+            </div>
 
-            <tr>
-              <td className="mockup-section">
+          </div>
+              
+          <div className="row">
+
+          <div className="col">
+          <div className="mockup-section">
                 <a href="https://iremiwa.github.io/GIF-Search/">
                 <img src={gifFinderMockup} className="mockup" />
                 <h3>GIF Finder</h3>
@@ -76,9 +85,11 @@ function Portfolio() {
                   and then the application renders 10 GIFs.
                 </p>
                 </a>
-              </td>
+              </div>
+          </div>
 
-              <td className="mockup-section">
+          <div className="col">
+          <td className="mockup-section">
                 <a href="https://iremiwa.github.io/todo-list">
                 <img src={todoListMockup} className="mockup" />
                 <h3>Todo List</h3>
@@ -88,9 +99,9 @@ function Portfolio() {
                 </p>
                 </a>
               </td>
-            </tr>
-          </tbody>
-        </div>
+          </div>
+          </div>
+      
       </div>
     </React.Fragment>
   );
