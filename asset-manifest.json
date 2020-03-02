@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.edd71ea3.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.fdb09619.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.fdb09619.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.3734a9be.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.3734a9be.js.map",
+    "static/js/2.f72d5276.chunk.js": "/my-portfolio/static/js/2.f72d5276.chunk.js",
+    "static/js/2.f72d5276.chunk.js.map": "/my-portfolio/static/js/2.f72d5276.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "precache-manifest.c35897d4e2ac5dd6e7938f9275732b6f.js": "/my-portfolio/precache-manifest.c35897d4e2ac5dd6e7938f9275732b6f.js",
+    "service-worker.js": "/my-portfolio/service-worker.js",
+    "static/css/main.edd71ea3.chunk.css.map": "/my-portfolio/static/css/main.edd71ea3.chunk.css.map",
+    "static/js/2.f72d5276.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.f72d5276.chunk.js.LICENSE.txt",
+    "static/media/bookFinderMockup.png": "/my-portfolio/static/media/bookFinderMockup.e2b0fd20.png",
+    "static/media/gifFinderMockup.png": "/my-portfolio/static/media/gifFinderMockup.e00c8b07.png",
+    "static/media/App.css": "/my-portfolio/static/media/header2.39661ae1.jpg",
+    "static/media/instabillMockup.png": "/my-portfolio/static/media/instabillMockup.2695439c.png",
+    "static/media/newsSearchMockup.png": "/my-portfolio/static/media/newsSearchMockup.7671d088.png",
+    "static/media/quizAppMockup.png": "/my-portfolio/static/media/quizAppMockup.c5736b9a.png",
+    "static/media/todoListMockup.png": "/my-portfolio/static/media/todoListMockup.71138fa1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3734a9be.js",
+    "static/js/2.f72d5276.chunk.js",
+    "static/css/main.edd71ea3.chunk.css",
+    "static/js/main.fdb09619.chunk.js"
+  ]
+}
